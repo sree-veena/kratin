@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container1 {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/1165991/pexels-photo-1165991.jpeg?cs=srgb&dl=pexels-johannes-plenio-1165991.jpg&fm=jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+
+.cont-title {
+    font-family: "Caveat";
+    font-size: 25px;
+    font-weight: bold;
+    min-width: 80px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.cont-btn {
+    height: 40px;
+    width: 120px;
+    box-shadow: 3px 3px #ffa500;
+}
+
+@media (max-width:578px) {
+    .todos-bg-container {
+        background-image: url("https://shp.rutgers.edu/health-informatics/wp-content/uploads/sites/4/2021/02/Doctor-of-Health-Informatics-tile-1.jpg");
+        height: 200vh;
+        background-size: cover;
+        width: 100vw;
+    }
+
+    .todos-heading {
+        text-align: center;
+        font-family: "Caveat";
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: black;
+
+    }
+
+    .create-task-heading {
+        font-family: "Caveat";
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .create-task-heading-subpart {
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .todo-items-heading {
+        font-family: "Caveat";
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .todo-items-heading-subpart {
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .todo-items-container {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .todo-item-container {
+        margin-top: 15px;
+    }
+
+    .todo-user-input {
+        background-color: #C7B3DC;
+        width: 100%;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #B49CCB;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 15px;
+        box-shadow: 3px 3px #B49CCB;
+    }
+
+    .button {
+        color: white;
+        background-color: #4c63b6;
+        font-family: "Roboto";
+        font-size: 18px;
+        border-width: 0px;
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .label-container {
+        background-color: pink;
+        width: 100%;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #096f92;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 4px;
+    }
+
+    .checkbox-input {
+        width: 20px;
+        height: 20px;
+        margin-top: 12px;
+        margin-right: 12px;
+    }
+
+    .checkbox-label {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+        width: 82%;
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+    }
+
+    .delete-icon-container {
+        text-align: right;
+        width: 18%;
+    }
+
+    .delete-icon {
+        padding: 15px;
+    }
+
+    .checked {
+        text-decoration: line-through;
+    }
+
+    .icon {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+    }
+
+    .todos-bg-container {
+        background-color: #ffffff;
+    }
+}
+
+@media (min-width:578px) {
+
+    .todos-bg-container {
+        background-image: url("https://shp.rutgers.edu/health-informatics/wp-content/uploads/sites/4/2021/02/Doctor-of-Health-Informatics-tile-1.jpg");
+        height: 100vh;
+        background-size: cover;
+        width: 100vw;
+    }
+
+    .todos-heading {
+        text-align: center;
+        font-family: "Caveat";
+        font-size: 46px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: black;
+
+    }
+
+    .create-task-heading {
+        font-family: "Caveat";
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .create-task-heading-subpart {
+        font-family: "Roboto";
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .todo-items-heading {
+        font-family: "Caveat";
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .todo-items-heading-subpart {
+        font-family: "Roboto";
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .todo-items-container {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .todo-item-container {
+        margin-top: 15px;
+    }
+
+    .todo-user-input {
+        background-color: #C7B3DC;
+        width: 100%;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #B49CCB;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 15px;
+        box-shadow: 3px 3px #B49CCB;
+    }
+
+    .button {
+        color: white;
+        background-color: #4c63b6;
+        font-family: "Roboto";
+        font-size: 18px;
+        border-width: 0px;
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .label-container {
+        background-color: pink;
+        width: 100%;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #096f92;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 4px;
+    }
+
+    .checkbox-input {
+        width: 20px;
+        height: 20px;
+        margin-top: 12px;
+        margin-right: 12px;
+    }
+
+    .checkbox-label {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 400;
+        width: 82%;
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+    }
+
+    .delete-icon-container {
+        text-align: right;
+        width: 18%;
+    }
+
+    .delete-icon {
+        padding: 15px;
+    }
+
+    .checked {
+        text-decoration: line-through;
+    }
+
+    .icon {
+        height: 150px;
+        width: 150px;
+        border-radius: 50px;
+    }
+
+    .todos-bg-container {
+        background-color: #ffffff;
+    }
+}
